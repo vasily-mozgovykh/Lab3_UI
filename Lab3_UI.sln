@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "View", "View\View.csproj", "{6E457C05-3A68-41A2-8546-863519531E72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModel", "ViewModel\ViewModel.csproj", "{3BC85C85-5A81-449E-913D-1BA2BED4D6A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelClassLibrary", "ModelClassLibrary\ModelClassLibrary.csproj", "{F5F61116-B5E4-4486-89F6-3D4519AA7480}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryTests", "ClassLibraryTests\ClassLibraryTests.csproj", "{81C22224-EEC7-4E45-AF33-67AB7A41EA38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModelTests", "ViewModelTests\ViewModelTests.csproj", "{951FA686-AB87-44B2-B5BA-AE3FA527C9DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{21258DE4-37CA-4D19-896C-CA12DC0E347F}"
+	ProjectSection(SolutionItems) = preProject
+		SplinesCalculator.dll = SplinesCalculator.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E457C05-3A68-41A2-8546-863519531E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E457C05-3A68-41A2-8546-863519531E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E457C05-3A68-41A2-8546-863519531E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E457C05-3A68-41A2-8546-863519531E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC85C85-5A81-449E-913D-1BA2BED4D6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC85C85-5A81-449E-913D-1BA2BED4D6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC85C85-5A81-449E-913D-1BA2BED4D6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC85C85-5A81-449E-913D-1BA2BED4D6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F61116-B5E4-4486-89F6-3D4519AA7480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F61116-B5E4-4486-89F6-3D4519AA7480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F61116-B5E4-4486-89F6-3D4519AA7480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F61116-B5E4-4486-89F6-3D4519AA7480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C22224-EEC7-4E45-AF33-67AB7A41EA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C22224-EEC7-4E45-AF33-67AB7A41EA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C22224-EEC7-4E45-AF33-67AB7A41EA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C22224-EEC7-4E45-AF33-67AB7A41EA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951FA686-AB87-44B2-B5BA-AE3FA527C9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951FA686-AB87-44B2-B5BA-AE3FA527C9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951FA686-AB87-44B2-B5BA-AE3FA527C9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951FA686-AB87-44B2-B5BA-AE3FA527C9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA1A0F9F-3EEB-48D4-A773-FDF69E3EDF38}
+	EndGlobalSection
+EndGlobal
